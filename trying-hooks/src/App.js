@@ -2,12 +2,14 @@ import React from 'react';
 import BasicHook from './components/BasicHook';
 import logo from './logo.svg';
 import './App.css';
+import UseEffect from './components/UseEffect';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <BasicHook />
+        <UseEffect />
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
