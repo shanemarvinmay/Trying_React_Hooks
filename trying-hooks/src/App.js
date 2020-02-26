@@ -1,13 +1,18 @@
 import React from 'react';
 import BasicHook from './components/BasicHook';
+import UseEffect from './components/UseEffect';
+import MaterialDesign from './components/MaterialDesign';
+import MDGrid from './components/MDGrid';
 import logo from './logo.svg';
 import './App.css';
-import UseEffect from './components/UseEffect';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <MaterialDesign />
+        <MDGrid />
         <BasicHook />
         <UseEffect />
         {/* <img src={logo} className="App-logo" alt="logo" />
